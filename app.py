@@ -11,7 +11,7 @@ image = Image.open('emoticones.jpg')
 st.image(image)
 st.subheader("Por favor escribe en el campo de texto la frase que deseas analizar")
 
-translator = Translator()
+#translator = Translator()
 
 with st.sidebar:
                st.subheader("Polaridad y Subjetividad")
