@@ -3,4 +3,3 @@ streamlit-lottie
 textblob==0.17.1
 gTTS==2.2.2
 googletrans==4.0.2-rc1
-
