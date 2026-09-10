@@ -39,9 +39,9 @@ def load_lottie_url(url: str):
 
 # --- Animaciones (elige LOCAL o URL según prefieras) ---
 # Opción A: archivos locales en una carpeta "lottie/"
-LOTTIE_POSITIVO = load_lottie_local("lottie/Happy.json")
-LOTTIE_NEGATIVO = load_lottie_local("lottie/Sad")
-LOTTIE_NEUTRAL  = load_lottie_local("lottie/Neutral.json")
+LOTTIE_POSITIVO = load_lottie_local("Happy.json")
+LOTTIE_NEGATIVO = load_lottie_local("Sad.json")
+LOTTIE_NEUTRAL  = load_lottie_local("Neutral.json")
 
 # Opción B: desde una URL (descomenta y reemplaza local por url si prefieres esto)
 # LOTTIE_POSITIVO = load_lottie_url("https://assets.lottiefiles.com/tu-url-happy.json")
