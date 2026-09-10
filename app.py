@@ -1,5 +1,7 @@
 from textblob import TextBlob
 import pandas as pd
+from stream_lottie import st_lottie
+import json
 import streamlit as st
 from PIL import Image
 from googletrans import Translator
